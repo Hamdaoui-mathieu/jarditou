@@ -1,0 +1,165 @@
+.text {
+    float: right;
+    font: bolder;
+    color: blue;
+    font-size: 2.5vw;
+}
+
+
+
+nav {
+    display: flex;
+    background-color: rgba(44, 56, 236, 0.357);
+    line-height: 25px;
+    width: 100%;
+    border: 3px solid;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 60px;
+}
+
+ul {
+    display: flex;
+    color: white;
+}
+
+a {
+    color: white;
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    background-color: rgba(44, 56, 236, 0.357);
+    line-height: 25px;
+    border: 3px solid;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 60px;
+}
+
+img {
+    width: 100%;
+    opacity: 0.850;
+}
+
+
+
+body {
+    background-image: url(../src/img/cerf.jpg);
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+
+}
+
+label {
+    display: block;
+    width: 400px;
+    float: left;
+}
+
+.arrondie {
+    border: 2px solid;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 7px;
+    border-radius: 250px;
+    height: 230px;
+}
+
+table {
+    margin-bottom: 3%;
+    margin-top: 3%;
+    color: white;
+}
+
+#color {
+    color: white;
+    font-size: 1.5vw;
+    width: 100%
+}
+
+.positionnement {
+    display: flex;
+    flex-direction: inline;
+}
+
+aside {
+    color: black;
+    font-weight: bolder;
+    column-width: 400px;
+    background-color: rgba(67, 123, 244, 0.332);
+
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-image: url(../src/img/foret.jpg);
+        background-color: rgba(51, 229, 2, 0.297);
+        background-size: 100% 100%;
+        color: white;
+    }
+
+    .text {
+        float: initial;
+        color: rgba(231, 7, 7, 0.927);
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(44, 56, 236, 0.357);
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 25px;
+        border: 3px solid;
+        -moz-border-radius: 7px;
+        -webkit-border-radius: 7px;
+        border-radius: 60px;
+    }
+
+    ul {
+        display: initial;
+    }
+
+
+    aside {
+        display: none;
+    }
+
+    #color {
+        font-size: 2.5vw;
+        color: white;
+    }
+
+    nav,
+    footer {
+        display: flex;
+        align-items: center;
+        background-color: rgb(130, 19, 19, 0.607);
+    }
+
+    th,
+    td {
+        color: rgb(243, 234, 240);
+        font-weight: bolder;
+    }
+
+    .arrondie {
+        border: 2px solid;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 7px;
+        border-radius: 250px;
+        height: 95px;
+    }
+
+    header {
+        background-color: rgba(85, 227, 60, 0.633);
+    }
+}
